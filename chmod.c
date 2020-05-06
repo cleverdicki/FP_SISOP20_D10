@@ -2,8 +2,8 @@
 #include "user.h"
 #include "fcntl.h"
 #include "stat.h"
-int
-main(int argc, char *argv[])
+
+int main(int argc, char *argv[])
 {
   if(argc < 3)
   {
