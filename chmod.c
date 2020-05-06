@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
 {
   if(argc < 3)
   {
-    printf(1, "chmod memakai 3 argumen, contoh = 'chmod' '(numeric chmod)' '(nama folder)'\n");
+    printf(1, "chmod memakai 3 argumen, contoh = 'chmod' '(numeric chmod)' '(nama folder/file)'\n");
     exit();
   }
 
