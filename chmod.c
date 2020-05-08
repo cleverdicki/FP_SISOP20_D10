@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 
   if(argc > 2)
   {
-    if((atoo(argv[1]) > 0 && atoo(argv[1]) < 1778) || atoi(argv[1]) == 0)
+    if((atoo(argv[1]) > 0 && atoo(argv[1]) < 1778) || atoo(argv[1]) == 0)
       if(chmod(argv[2], atoo(argv[1])))
         printf(1, "chmod %s tidak berhasil\n", argv[2]);
       else
